@@ -39,7 +39,7 @@ async (req, res) => {
         if(user){
             return res.status(400).json({ errors: [{msg: 'User already exists'}] });
         }
-        // Get users gravatar
+        // Get users gravatar to use picture
         const avatar = gravatar.url(email, {
             s: '200',
             r: 'pg',
