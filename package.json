@@ -7,23 +7,24 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "mern": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Aregawi Teame",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
-    "express": "^4.17.1",
-    "express-validator": "^6.12.1",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
     "gravatar": "^1.8.2",
+    "gravator": "^1.0.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.7",
+    "mongoose": "^5.13.13",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "concurrently": "^6.2.1",
-    "nodemon": "^2.0.12"
+    "concurrently": "^6.5.1",
+    "nodemon": "^2.0.15"
   },
   "repository": {
     "type": "git",
